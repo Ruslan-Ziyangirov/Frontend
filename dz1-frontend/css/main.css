@@ -1,0 +1,919 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #000;
+	font-size: 20px;
+	background: #F9F9F9;
+}
+
+li{
+	margin-right: 18px;
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;	
+	color: #000;
+}
+
+p{
+	margin: 0px 0px;
+}
+
+h1{
+	margin-bottom: 0px;
+	font-size: 55px;
+}
+
+h2{
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+h3{
+	font-weight: 400;
+	font-size: 35px ;
+}
+
+.header{
+	background: #fff;
+	position: fixed;
+	width: 100% ;
+	z-index: 5 ;
+	margin-top: -55px;
+
+}
+
+.logo{
+	background: url('../image/Group.svg') no-repeat left center/contain;
+	margin-left: 101px;
+	
+	display: block;
+	padding-right: 120px;
+	padding-top: 45px;
+
+}
+
+.menu{
+	display: flex;
+	margin-left: 250px; 
+	color: #000;
+
+}
+
+.menu li:not(:last-child) {
+	margin-right: 36px;
+}
+
+.menu a {
+    padding-bottom: 5px
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #3F3D56;
+}
+
+.btn-call:hover {
+	box-shadow: 0px 0px 20px #57B581;
+}
+
+
+.nav{
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+
+}
+
+.nav p{
+	margin-right: 17px;
+}
+
+.btn-call{
+	border-radius: 20px;
+	background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+	width: 200px;
+	padding:10px 7px;
+	font-weight: bold;
+	font-size: 20px;
+	border: 1px solid #35CC79;
+	white-space: nowrap;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.offer h1{
+	margin-top:53px; 
+}
+
+.offer h2{
+	margin-top: 130px;
+}
+
+.offer h3{
+	width: 465px;
+}
+
+.offer{
+	margin: 0px auto ;
+	width: 1080px
+}
+
+.main-offer{
+	display: flex;	
+}
+
+.utp{
+	display: block;
+}
+
+.utp h3{
+	line-height: 30px;
+	font-size: 30px ;
+}
+
+.second-container{
+	width: 1160px ;
+	margin: 0px auto ;
+}
+
+.second-container p{
+	margin: 0px auto;
+	width: 540px ;
+	font-weight: bold;
+  font-size: 55px;
+  line-height: 24px;
+}
+
+.second-container h2{
+	width: 448px;
+	margin-top: 120px;
+
+}
+
+.line2{
+	margin-left: 0px;
+}
+
+.block-information{
+	display: flex ;
+}
+
+.second-container h3{
+	width: 570px;
+	font-size: 25px;
+	
+}
+
+.cards{
+	margin: 0px auto;
+	display: flex;
+	position: relative ;
+	width: 1160px ;
+	margin-top: 60px;
+	height: 300px;
+}
+
+.business-growth-scenarios{
+	margin-right: 30px;
+}
+
+.our-software{
+	margin-right: 30px;
+}
+
+.education{
+	margin-right: 30px;
+}
+
+.text-information{
+	text-align: center ;
+	position: relative;
+	bottom: 205px ;
+}
+
+.text-information p{
+	font-weight: normal;
+	line-height: 25px;
+
+}
+
+.text-information h4{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+
+}
+
+.title-business{
+	width: 160px ;
+	left: 52px;
+	position: relative;
+}
+
+.title-software{
+	position: relative;
+	top: 10px;
+	right: 3px ;
+}
+
+.title-education{
+  position: relative;
+	top: 10px;
+	right: 7px ;
+}
+
+.title-solution{
+	position: relative;
+	top: 10px;	
+}
+
+.line-for-business{
+	position: relative ;
+	bottom: 32px ;
+	right: 3px ;
+}
+
+.line-for-software{
+ position: relative;
+ bottom: 12px ;
+ 
+}
+
+.line-for-education{
+	position: relative ;
+	bottom: 12px ;
+	right: 6px ;
+}
+
+.line-for-solution{
+	position: relative ;
+	bottom: 12px ;
+}
+
+.text-for-business{
+	width: 205px ;
+	position: relative ;
+	left: 25px;
+	bottom: 25px ;
+}
+
+.text-for-software{
+	width: 205px ;
+	position: relative ;
+	left: 25px;
+	bottom: 5px ;
+}
+
+.text-for-education{
+	width: 205px ;
+	position: relative ;
+	left: 25px;
+	bottom: 7px ;
+}
+
+.text-for-solution{
+	width: 205px ;
+	position: relative ;
+	left: 25px;
+	bottom: 7px ;	
+}
+
+.fourth-container{
+	font-weight: 600;
+	font-size: 50px;
+	width: 787px ;
+	margin: 0px auto;
+	color: #3F3D56;
+	margin-top: 90px;
+
+}
+
+.btns{
+	margin: 0px auto;
+	width: 1350px ;
+	margin-top: 90px ;
+
+}
+
+.second-row{
+	display: flex ;
+	margin-left: 100px ;
+
+}
+
+.second-row h2{
+	position: absolute ;
+	padding-left: 35px;
+}
+
+.second-row img{
+	position: relative ;
+	z-index: -1 ;
+}
+
+.first-row{
+	display: flex;
+	margin-left: 100px ;
+}
+
+.first-row h2{
+	position: absolute;
+	padding-left: 35px;
+}
+
+.first-row img{
+	position: relative ;
+	z-index: -1 ;
+}
+
+.btn-other-trade{
+	margin-left: 30px;
+	display: block ;
+}
+
+.public-catering{
+	display: block ;
+}
+
+.services{
+	margin-left: 30px;
+	display: block  ;
+}
+
+.scene h1{
+	width: 650px;
+	margin: 0px auto ;
+	font-weight: bold;
+  font-size: 50px;
+  line-height: 24px;
+}
+
+.scene{
+	font-size: 30px ;
+	font-weight: 600;
+	margin: 0px auto;
+	margin-top: 90px;
+	width: 1200px ;
+
+}
+
+.grow:hover{
+	box-shadow: 0px 0px 20px #57B581;
+}
+
+.grow-decline{
+	width: 640px ;
+	margin: 0px auto ;
+	margin-top: 60px ;
+}
+
+.grow{
+	margin: 0px;
+	padding: 6px 20px;
+	width: 240px;
+	background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+	border-radius: 20px;
+}
+
+.decline{
+	margin-left: 81px;
+}
+
+.instruments{
+	width: 900px;
+	text-align: center ;
+	margin: 0px auto;
+	line-height: 30px;
+	margin-top: 50px;
+
+}
+
+.advantages{
+	font-size: 25px ;
+	margin: 0px auto ;
+	margin-top: 80px;
+
+}
+
+.advantages h3{
+	font-size: 35px ;
+	font-weight: 600;
+	margin: 0px;
+}
+
+.advantages p {
+	margin: 20px 0px;
+}
+
+.interactive-learning{
+	display: flex ;
+	margin: 0px auto;
+	width: 1100px ;
+}
+
+.interactive-learning-img{
+	margin-left: 110px;
+}
+
+.btn-order{
+	padding: 20px 80px;
+	background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+	border-radius: 7px;
+	border: 1px solid #35CC79;
+	font-size: 25px;
+	font-weight: 600 ;
+	white-space: nowrap;
+	align-items: center;
+	display: block  ;
+	cursor: pointer;
+	margin-top: 35px ;
+}
+
+.btn-order:hover{
+	box-shadow: 0px 0px 20px #57B581;
+}
+
+.int-lrn p{
+	width: 460px;
+}
+
+.int-lrn img{
+	width: 200px ;
+}
+
+.automatic-pre-orders{
+	display: flex ;
+	margin: 0px auto;
+	width: 1200px ;
+}
+
+.automatic-pre-orders img{
+	margin-right: 30px;
+}
+
+.aut-ord{
+	width: 525px ;
+	margin-left: 30px;
+	margin-top: 32px;
+}
+
+.aut-ord img{
+	width: 200px;
+}
+
+.btn-slaider{
+	align-items: center;
+	margin: 0px auto;
+	width: 1280px ;
+}
+
+.left-arrow{
+	background: #C4C4C4CC;
+	border-radius: 100px;
+	width: 50px ;
+	border: 0px ;
+	height: 50px ;
+	cursor: pointer ;
+}
+
+.right-arrow{
+	background: #C4C4C4CC;
+	border-radius: 100px;
+	width: 50px ;
+	border: 0px ;
+	height: 50px ;
+	cursor: pointer ;
+	margin-left: 1170px ;	
+}
+
+.main-title{
+	font-size: 50px ;
+	margin: 0px;
+	text-align: center;
+}
+
+.our-cash{
+	margin-top: 120px;
+
+}
+
+.three-btn{
+	display: flex ;
+	margin: 0px auto;
+	margin-top: 20px;
+	align-items: center;
+	width: 800px;
+	
+}
+
+.three-btn h3{
+	font-weight: 600 ;
+	margin: 0px 0px;
+}
+
+.about-cash{
+	margin-right: 110px ;
+}
+
+.about-cash:hover{
+	box-shadow: 0px 0px 20px #57B581;
+}
+
+.about-video{
+	margin-right: 110px ;
+}
+
+.about-cash{
+	padding: 10px 10px;
+	background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+	border-radius: 20px;
+
+}
+
+.neva{
+	margin: 0px auto ;
+	margin-top: 110px;
+	display: flex ;
+	width: 1120px ;
+}
+
+.perfect-deсision{
+	margin-right: 70px ;
+}
+
+.perfect-deсision h2{
+	width: 470px ;
+	line-height: 40px;
+	margin-top: 50px;
+}
+
+.perfect-deсision img p{
+	margin-top: 20px;
+}
+
+.perfect-deсision p{
+	font-size: 20px ;
+	font-weight: 400;
+}
+
+.device{
+	width: 475px ;
+}
+
+.core{
+	width: 410px ;
+}
+
+.slaider-background{
+	position: absolute;
+	z-index: -1;
+}
+
+.slaider-cash button{
+	width: 50px ;
+	height: 50px ;
+	border-radius: 100px;
+	border: 0px;
+	background: #C4C4C4CC;
+	cursor: pointer ;
+}	
+
+.left-arrow-slaider-cash{
+	position: relative ;
+	left: 100px;
+	bottom: 30px ;
+}
+
+.right-arrow-slaider-cash{
+	
+	position: relative ;
+	left: 530px;
+	bottom: 30px ;	
+}
+
+.first-product{
+	position: relative ;
+	top: 120px;
+	left: 155px;
+}
+
+.slaider-cash h2{
+	position: relative;
+	top: 220px;
+	left: 250px;
+}
+
+.sixth-container{
+	margin-top: 120px ;
+}
+
+.Choose-what-you-need{
+	text-align: center ;
+}
+
+.Choose-what-you-need h2{
+	font-size: 50px ;
+}
+
+.buy-rent-ourpo h2{
+	font-size: 35px ;
+}
+
+.buy-rent-ourpo{
+	font-weight: 600 ;
+	display: flex ;
+	align-items: center;
+	margin: 0px auto ;
+	width: 700px ;
+	margin-top: 20px;
+}
+
+.Choose-what-you-need p{
+	font-size: 30px ;
+	font-weight: 600 ;
+	margin-top: 50px ;
+	line-height: 30px;
+}
+
+.buy{
+	margin-right: 110px ;
+	padding: 4px 27px ;
+	background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+	border-radius: 20px;
+}
+
+.buy:hover{
+	box-shadow: 0px 0px 20px #57B581;
+}
+
+.buy-rent-ourpo h2{
+	margin: 0px ;
+}
+
+.rent{
+	margin-right: 110px ;
+}
+
+.selectors{
+	margin-top: 96px ;
+}
+
+.selectors p{
+	color: #898989 ;
+	font-size: 20px ;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+select{
+	font-size: 25px ;
+	display: block;
+    width: 553px;
+    height: 70px ;
+    border: 0px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+	border-radius: 7px;
+}
+
+option{
+	padding: 50px;
+}
+
+.KKT{
+	margin-top: 50px;
+}
+
+.growth-scenario{
+	margin-top: 50px ;
+}
+
+.add-scene{
+	margin-top: 50px ;
+	font-size: 25px;
+}
+
+.add-scene button{
+	display: flex ;
+	border: 0px ;
+	background: #F9F9F9;
+	cursor: pointer ;
+}
+
+.add-scene p{
+	font-size: 25px ;
+	color: #000 ;
+	margin-left: 15px;
+}
+
+.current-proceeds{
+	margin-top: 50px ;
+}
+
+.prices{
+	margin-top: 153px ;
+	margin-left: 92px ;
+	background: #FFF;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+	width: 435px ;
+	border-radius: 7px ;
+}
+
+
+.prices p{
+	color: #898989 ;
+	margin: 0px;
+}
+
+.prices h2{
+	margin-top: 15px ;
+	padding-left: 21px;
+	font-weight: 400 ;
+}
+
+.prices img{
+	margin-left: 23px;
+}
+
+.projected-growth{
+	padding: 20px 0px 0px 21px ;
+}
+
+.total{
+	font-size: 40px ;
+	padding: 35px 0px 0px 21px;
+
+}
+
+.costs-and-kkt{
+	font-size: 30px ;
+	padding: 30px 0px 0px 21px;
+}
+
+.prices button{
+	padding: 30px 85px;
+	background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+	border: 0px ;
+	border-radius: 7px;
+	font-size: 25px ;
+	font-weight: 600 ;
+	color: #fff ;
+	margin-left: 23px;
+	margin-top: 75px;
+	margin-bottom: 35px;
+	cursor: pointer ;
+}
+
+.selectors-and-prices{
+	display: flex ;
+	margin: 0px auto;
+	width: 1080px;
+
+}
+
+select:hover{
+	box-shadow: 0px 0px 30px #CBCBCB;
+}
+
+
+
+.footer{
+	background: url('../image/Rectangle 99.png') no-repeat;
+	width: 100%;
+	margin-top: 200px;
+	background-size: 100%;
+}
+
+.feedback{
+	display: flex;
+	width: 1180px ;
+	margin: 0px auto;
+}
+
+.information-footer{
+	padding-top: 200px;
+}
+
+.information-footer h1{
+	font-weight: 400 ;
+	width: 493px ;
+	
+	line-height: 110%;
+	margin-top: 0px;
+	margin-bottom: 50px ;
+}
+
+.logo-footer{
+	background: url('../image/logo-footer.svg') no-repeat left center/contain ;
+	padding: 80px 80px ;
+	
+}
+
+.information-footer a{
+	margin-top: 50px;
+}
+
+.form{
+	padding-top: 200px;
+	margin-left: 250px ;
+	width: 385px ;
+
+}
+
+.form p{
+	font-size: 20px ;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top:0px ;
+}
+
+input{
+	height: 70px;
+	width: 385px ;
+	border: 0px;
+	border-radius: 7px;
+	font-size: 25px ;
+	padding-left: 8px ;
+	margin-bottom: 15px;
+}
+
+.checkbox{
+	width: 20px ;
+	height: 20px ;
+	margin-right: 12px;
+}
+
+.btn-form{
+	font-size: 25px ;
+	border-radius: 7px;
+	border: 0px ;
+	background: #fff;
+	color: #000 ;
+	padding: 32px 86px ;
+	font-weight: 600 ;
+}
+
+.btn-form:hover{
+	box-shadow: 0px 0px 20px #FFF;
+}
+
+.accept p{
+	font-size: 18px ;
+	line-height: 25px;
+}
+
+.accept{
+	display: flex ;
+	margin-bottom: 50px;
+}
+
+.order-email{
+	margin-top: 65px ;
+
+}
+
+.order-email h3{
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.order-email img{
+	margin: 0px 0px;
+}
+
+hr{
+	background: #000000;
+	width: 294px ;
+	height: 1 px;
+}
+
+.our-contacts{
+	margin-top: 65px;
+	margin-left: 70px ;
+}
+
+.our-contacts h3{
+	margin-top: 15px ;
+	margin-bottom: 0px;
+}
+
+.additional-information{
+	display: flex;
+	margin: 0px auto ;
+	width: 1180px;
+	}
+
+.additional-text p{
+	margin-left: 110px;
+	font-size: 16px;
+	width: 618px;
+	margin-top: 40px;
+
+}
+
+.additional-text{
+	padding-bottom: 72px;
+}
